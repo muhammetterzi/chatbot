@@ -102,20 +102,6 @@
     "internet hakkında bilgi verir misin": "Tabii! Hangi konuyu öğrenmek istersin? ADSL, Fiber, Ping ya da NAT hakkında bilgi verebilirim.",
     "tekrar görüşürüz": "Görüşmek üzere! Her zaman buradayım.",
     "yardımcı olamaz mısın": "Üzgünüm, her konuda en iyi bilgiyi vermek için çabalıyorum. Sana farklı bir şekilde yardımcı olmaya çalışayım.",
-    "beni anladın mı": "Evet, seni anlıyorum! Yardım etmek için buradayım.",
-    "şaka yapar mısın": [
-        "Router neden modeme küsmüş? Çünkü modem her zaman sinyalini kesiyormuş!",
-        "Bilgisayar neden denize açılmış? Çünkü internette sörf yapmak istemiş.",
-        "Ping atmayı neden seviyorum biliyor musun? Çünkü o bana her zaman dönüş yapıyor!",
-        "Veritabanı neden kafasını dinlemek istemiş? Çünkü sorgulardan başı ağrımış.",
-        "Modem partiye neden geç kalmış? Çünkü sinyali yeni almış."
-    ],
-    "espri yapar mısın": [
-        "İnternete neden balıkçı ağı demiyorlar? Çünkü herkes takılıyor, kimse yakalanmıyor.",
-        "Router'a niye kızmazsın? Çünkü her zaman bir yol bulur.",
-        "Firewall’un sevgilisi kim? Proxy! İkisi de sürekli birbirini korur.",
-        "İnternet kopunca insanlar neden telaşlanır? Çünkü herkes 'offline' olur!",
-        "VPN neden sahtekar gibi hissedermiş? Çünkü hep başka bir IP’ye bürünürmüş."
-    ]
+    "beni anladın mı": "Evet, seni anlıyorum! Yardım etmek için buradayım."
 }
 
