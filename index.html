@@ -5,30 +5,19 @@
     <meta charset="UTF-8">
 </head>
 <body>
+    <h1>Chat API is running...</h1>
     <script>
-        function handleRequest(message) {
-            const responses = {
-                "merhaba": "Merhaba! Size internet altyapıları konusunda yardımcı olabilirim. ADSL, Fiber veya diğer teknolojiler hakkında ne öğrenmek istersiniz?",
-                "adsl nedir": "ADSL (Asymmetric Digital Subscriber Line), mevcut telefon hatları üzerinden veri iletimi sağlayan bir teknolojidir. Özellikleri:\n- Download hızı: 24 Mbps'e kadar\n- Upload hızı: 1 Mbps'e kadar\n- Mesafe arttıkça hız düşer\n- Bakır kablo altyapısı kullanır",
-                "fiber nedir": "Fiber internet, ışık hızında veri iletimi sağlayan fiber optik kablolar kullanır. Özellikleri:\n- Download hızı: 1000 Mbps'e kadar\n- Upload hızı: 100 Mbps'e kadar\n- Mesafeden etkilenmez\n- Düşük ping değeri\n- Yüksek güvenilirlik",
-                "görüşürüz": "Görüşmek üzere! Başka sorunuz olursa tekrar gelebilirsiniz."
-            };
-            
-            return responses[message.toLowerCase()] || "Üzgünüm, bu konuda bilgim yok.";
-        }
+        const responses = {
+            "merhaba": "Merhaba! Size internet altyapıları konusunda yardımcı olabilirim. ADSL, Fiber veya diğer teknolojiler hakkında ne öğrenmek istersiniz?",
+            "adsl nedir": "ADSL (Asymmetric Digital Subscriber Line), mevcut telefon hatları üzerinden veri iletimi sağlayan bir teknolojidir. Özellikleri:\n- Download hızı: 24 Mbps'e kadar\n- Upload hızı: 1 Mbps'e kadar\n- Mesafe arttıkça hız düşer\n- Bakır kablo altyapısı kullanır",
+            "fiber nedir": "Fiber internet, ışık hızında veri iletimi sağlayan fiber optik kablolar kullanır. Özellikleri:\n- Download hızı: 1000 Mbps'e kadar\n- Upload hızı: 100 Mbps'e kadar\n- Mesafeden etkilenmez\n- Düşük ping değeri\n- Yüksek güvenilirlik"
+        };
 
-        function handleChatRequest(request) {
-            return new Promise((resolve) => {
-                const response = handleRequest(request);
-                resolve({ text: response });
-            });
-        }
-
-        // API endpoint
-        if (window.location.pathname.endsWith('/webhooks/rest/webhook')) {
-            const message = JSON.parse(request.body).message;
-            return handleChatRequest(message);
-        }
+        window.addEventListener('message', function(event) {
+            const message = event.data.toLowerCase();
+            const response = responses[message] || "Üzgünüm, bu konuda bilgim yok.";
+            event.source.postMessage({text: response}, "*");
+        });
     </script>
 </body>
 </html>
