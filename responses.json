@@ -103,20 +103,19 @@
     "tekrar görüşürüz": "Görüşmek üzere! Her zaman buradayım.",
     "yardımcı olamaz mısın": "Üzgünüm, her konuda en iyi bilgiyi vermek için çabalıyorum. Sana farklı bir şekilde yardımcı olmaya çalışayım.",
     "beni anladın mı": "Evet, seni anlıyorum! Yardım etmek için buradayım.",
-    "şaka yapar mısın": "Tabii ki! Hadi bir tane daha: Router neden modeme sinirlenmiş? Çünkü hep aynı frekansta takılıp kalıyormuş. :)",
-    "şaka yapar mısın": "Router neden modeme küsmüş? Çünkü modem her zaman sinyalini kesiyormuş!",
-    "şaka yapar mısın": "Bilgisayar neden denize açılmış? Çünkü internette sörf yapmak istemiş.",
-    "şaka yapar mısın": "Ping atmayı neden seviyorum biliyor musun? Çünkü o bana her zaman dönüş yapıyor!",
-    "şaka yapar mısın": "Veritabanı neden kafasını dinlemek istemiş? Çünkü sorgulardan başı ağrımış.",
-    "şaka yapar mısın": "Modem partiye neden geç kalmış? Çünkü sinyali yeni almış.",
-    "şaka yapar mısın": "Ethernet kablosu neden psikoloğa gitmiş? Çünkü hep tıkanık hissediyormuş.",
-    "şaka yapar mısın": "Sunucuya niye kızdılar? Çünkü hep bekletiyormuş!",
-    "espri yapar mısın": "İnternete neden balıkçı ağı demiyorlar? Çünkü herkes takılıyor, kimse yakalanmıyor.",
-    "espri yapar mısın": "Router'a niye kızmazsın? Çünkü her zaman bir yol bulur.",
-    "espri yapar mısın": "Firewall’un sevgilisi kim? Proxy! İkisi de sürekli birbirini korur.",
-    "espri yapar mısın": "İnternet kopunca insanlar neden telaşlanır? Çünkü herkes 'offline' olur!",
-    "espri yapar mısın": "VPN neden sahtekar gibi hissedermiş? Çünkü hep başka bir IP’ye bürünürmüş.",
-    "espri yapar mısın": "Switch neden popüler? Çünkü her ortamda bağlantı kurar.",
-    "espri yapar mısın": "Programcı neden merdivenden düşmüş? Çünkü 'break' koymayı unutmuş.",
-    "espri yapar mısın": "IP adresi neden utanmış? Çünkü herkes onu izliyormuş."
+    "şaka yapar mısın": [
+        "Router neden modeme küsmüş? Çünkü modem her zaman sinyalini kesiyormuş!",
+        "Bilgisayar neden denize açılmış? Çünkü internette sörf yapmak istemiş.",
+        "Ping atmayı neden seviyorum biliyor musun? Çünkü o bana her zaman dönüş yapıyor!",
+        "Veritabanı neden kafasını dinlemek istemiş? Çünkü sorgulardan başı ağrımış.",
+        "Modem partiye neden geç kalmış? Çünkü sinyali yeni almış."
+    ],
+    "espri yapar mısın": [
+        "İnternete neden balıkçı ağı demiyorlar? Çünkü herkes takılıyor, kimse yakalanmıyor.",
+        "Router'a niye kızmazsın? Çünkü her zaman bir yol bulur.",
+        "Firewall’un sevgilisi kim? Proxy! İkisi de sürekli birbirini korur.",
+        "İnternet kopunca insanlar neden telaşlanır? Çünkü herkes 'offline' olur!",
+        "VPN neden sahtekar gibi hissedermiş? Çünkü hep başka bir IP’ye bürünürmüş."
+    ]
 }
+
