@@ -1,0 +1,6 @@
+{
+    "merhaba": "Merhaba! Size internet altyapıları konusunda yardımcı olabilirim. ADSL, Fiber veya diğer teknolojiler hakkında ne öğrenmek istersiniz?",
+    "adsl nedir": "ADSL (Asymmetric Digital Subscriber Line), mevcut telefon hatları üzerinden veri iletimi sağlayan bir teknolojidir. Özellikleri:\n- Download hızı: 24 Mbps'e kadar\n- Upload hızı: 1 Mbps'e kadar\n- Mesafe arttıkça hız düşer\n- Bakır kablo altyapısı kullanır",
+    "fiber nedir": "Fiber internet, ışık hızında veri iletimi sağlayan fiber optik kablolar kullanır. Özellikleri:\n- Download hızı: 1000 Mbps'e kadar\n- Upload hızı: 100 Mbps'e kadar\n- Mesafeden etkilenmez\n- Düşük ping değeri\n- Yüksek güvenilirlik",
+    "vdsl nedir": "VDSL (Very high-bit-rate Digital Subscriber Line), ADSL'den daha yüksek hızlar sunabilen bir DSL teknolojisidir. Özellikleri:\n- Download hızı: 100 Mbps'e kadar\n- Upload hızı: 40 Mbps'e kadar\n- Mesafe hassasiyeti ADSL'den daha fazla\n- Fiber altyapısını telefon hatlarıyla birleştirir"
+}
