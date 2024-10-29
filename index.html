@@ -8,15 +8,15 @@
     <h1>Chat API is running...</h1>
     <script>
         const responses = {
-    "merhaba": "Merhaba! Size internet altyapıları konusunda yardımcı olabilirim. ADSL, Fiber veya diğer teknolojiler hakkında ne öğrenmek istersiniz?",
-    "adsl nedir": "ADSL (Asymmetric Digital Subscriber Line), mevcut telefon hatları üzerinden veri iletimi sağlayan bir teknolojidir. Özellikleri:\n- Download hızı: 24 Mbps'e kadar\n- Upload hızı: 1 Mbps'e kadar\n- Mesafe arttıkça hız düşer\n- Bakır kablo altyapısı kullanır",
-    "fiber nedir": "Fiber internet, ışık hızında veri iletimi sağlayan fiber optik kablolar kullanır. Özellikleri:\n- Download hızı: 1000 Mbps'e kadar\n- Upload hızı: 100 Mbps'e kadar\n- Mesafeden etkilenmez\n- Düşük ping değeri\n- Yüksek güvenilirlik",
-    "vdsl nedir": "VDSL (Very high-bit-rate Digital Subscriber Line), ADSL'den daha yüksek hızlar sunabilen bir DSL teknolojisidir. Özellikleri:\n- Download hızı: 100 Mbps'e kadar\n- Upload hızı: 40 Mbps'e kadar\n- Mesafe hassasiyeti ADSL'den daha fazla\n- Fiber altyapısını telefon hatlarıyla birleştirir",
-    "kablo internet nedir": "Kablo internet, TV yayını için kullanılan koaksiyel kablolar üzerinden internet hizmeti sağlar. Özellikleri:\n- Download hızı: 500 Mbps'e kadar\n- Upload hızı: 50 Mbps'e kadar\n- TV hizmetiyle birlikte kullanılabilir\n- Paylaşımlı bant genişliği",
-    "hangi internet daha hızlı": "Hız sıralaması (en yüksekten düşüğe):\n1. Fiber İnternet (1000 Mbps'e kadar)\n2. Kablo İnternet (500 Mbps'e kadar)\n3. VDSL (100 Mbps'e kadar)\n4. ADSL (24 Mbps'e kadar)",
-    "internetim yavaş ne yapabilirim": "İnternet hızınızı artırmak için şu adımları deneyebilirsiniz:\n1. Modem yazılımını güncelleyin\n2. Modeminizi resetleyin\n3. DNS ayarlarını değiştirin\n4. WiFi kanalını değiştirin\n5. Modemin konumunu optimize edin\n6. Altyapınızı kontrol edip daha hızlı bir pakete geçiş yapın",
-    "görüşürüz": "Görüşmek üzere! Başka internet altyapısı sorunuz olursa tekrar gelebilirsiniz."
-};
+            "merhaba": "Merhaba! Size internet altyapıları konusunda yardımcı olabilirim. ADSL, Fiber veya diğer teknolojiler hakkında ne öğrenmek istersiniz?",
+            "adsl nedir": "ADSL (Asymmetric Digital Subscriber Line), mevcut telefon hatları üzerinden veri iletimi sağlayan bir teknolojidir. Özellikleri:\n- Download hızı: 24 Mbps'e kadar\n- Upload hızı: 1 Mbps'e kadar\n- Mesafe arttıkça hız düşer\n- Bakır kablo altyapısı kullanır",
+            "fiber nedir": "Fiber internet, ışık hızında veri iletimi sağlayan fiber optik kablolar kullanır. Özellikleri:\n- Download hızı: 1000 Mbps'e kadar\n- Upload hızı: 100 Mbps'e kadar\n- Mesafeden etkilenmez\n- Düşük ping değeri\n- Yüksek güvenilirlik",
+            "vdsl nedir": "VDSL (Very high-bit-rate Digital Subscriber Line), ADSL'den daha yüksek hızlar sunabilen bir DSL teknolojisidir. Özellikleri:\n- Download hızı: 100 Mbps'e kadar\n- Upload hızı: 40 Mbps'e kadar\n- Mesafe hassasiyeti ADSL'den daha fazla\n- Fiber altyapısını telefon hatlarıyla birleştirir",
+            "kablo internet nedir": "Kablo internet, TV yayını için kullanılan koaksiyel kablolar üzerinden internet hizmeti sağlar. Özellikleri:\n- Download hızı: 500 Mbps'e kadar\n- Upload hızı: 50 Mbps'e kadar\n- TV hizmetiyle birlikte kullanılabilir\n- Paylaşımlı bant genişliği",
+            "hangi internet daha hızlı": "Hız sıralaması (en yüksekten düşüğe):\n1. Fiber İnternet (1000 Mbps'e kadar)\n2. Kablo İnternet (500 Mbps'e kadar)\n3. VDSL (100 Mbps'e kadar)\n4. ADSL (24 Mbps'e kadar)",
+            "internetim yavaş ne yapabilirim": "İnternet hızınızı artırmak için şu adımları deneyebilirsiniz:\n1. Modem yazılımını güncelleyin\n2. Modeminizi resetleyin\n3. DNS ayarlarını değiştirin\n4. WiFi kanalını değiştirin\n5. Modemin konumunu optimize edin\n6. Altyapınızı kontrol edip daha hızlı bir pakete geçiş yapın",
+            "görüşürüz": "Görüşmek üzere! Başka internet altyapısı sorunuz olursa tekrar gelebilirsiniz."
+        };
 
         window.addEventListener('message', function(event) {
             const message = event.data.toLowerCase();
