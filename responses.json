@@ -9,5 +9,6 @@
     "ping nedir": "Ping, internet bağlantınızın tepki süresini gösteren bir değerdir. Düşük ping değeri daha iyi performans anlamına gelir. Özellikle:\n- Online oyunlar\n- Video konferanslar\n- Canlı yayınlar için önemlidir\nİdeal ping değerleri:\n- 1-30ms: Mükemmel\n- 31-50ms: Çok iyi\n- 51-100ms: Ortalama\n- 100ms+: Yüksek gecikme",
     "upload nedir": "Upload (yükleme hızı), verileri internete gönderme hızınızdır. Önemli olduğu durumlar:\n- Video konferans\n- Dosya paylaşımı\n- Yedekleme\n- Canlı yayın yapma\nGenellikle download hızından düşüktür.",
     "download nedir": "Download (indirme hızı), internetten veri alma hızınızdır. Kullanım alanları:\n- Video izleme\n- Dosya indirme\n- Web sayfası açma\n- Online oyun oynama\nGenellikle upload hızından yüksektir.",
-    "görüşürüz": "Görüşmek üzere! Başka internet altyapısı sorunuz olursa tekrar gelebilirsiniz."
+    "görüşürüz": "Görüşmek üzere! Başka internet altyapısı sorunuz olursa tekrar gelebilirsiniz.",
+    "deneme123": "SANA HELAL OLSUN CLAUDE"
 }
